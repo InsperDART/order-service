@@ -1,13 +1,14 @@
-package store.order;
+package store.order.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import store.order.OrderOut;
+import store.order.dto.Order;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -22,6 +23,9 @@ public class OrderModel {
     @Column(name = "id", nullable = false, updatable = false, length = 36)
     private String id;
 
+    @Column(name = "id", nullable = false, updatable = false)
+    private String idAccount;
+
     @Column(name = "date", nullable = false)
     private LocalDateTime date;
 
@@ -31,9 +35,10 @@ public class OrderModel {
     @Column(name = "total", nullable = false)
     private Double total;
 
-    OrderOut into() {
-        return new OrderOut(
+    public Order into() {
+        return new Order(
             id,
+            idAccount,
             date,
             items.stream().map(OrderItemModel::into).toList(),
             total

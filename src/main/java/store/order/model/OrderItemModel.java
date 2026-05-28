@@ -1,10 +1,14 @@
-package store.order;
+package store.order.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import store.order.ItemOut;
+import store.order.ItemProductOut;
+import store.order.dto.OrderItem;
+import store.order.dto.OrderItemProduct;
 
 @Entity
 @Table(name = "order_items")
@@ -31,10 +35,10 @@ public class OrderItemModel {
     @JoinColumn(name = "orderId", nullable = false)
     private OrderModel order;
 
-    ItemOut into() {
-        return new ItemOut(
+    public OrderItem into() {
+        return new OrderItem(
                 id,
-                new ItemProductOut(productId),
+                new OrderItemProduct(productId),
                 quantity,
                 total
         );

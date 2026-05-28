@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableFeignClients(basePackages = {
-        "store.product", "store.order"
+        "store.product"
 })
 @SpringBootApplication
 public class OrderApplication {
