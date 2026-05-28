@@ -1,0 +1,7 @@
+store\order\OrderResource.class
+store\order\OrderApplication.class
+store\order\OrderItemModel.class
+store\order\OrderModel.class
+store\order\OrderItem.class
+store\order\Order.class
+store\order\OrderItemProduct.class
