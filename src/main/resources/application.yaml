@@ -1,0 +1,26 @@
+﻿server:
+  port: 8080
+
+spring:
+  application:
+    name: order
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/store
+    username: store
+    password: store
+    driver-class-name: org.postgresql.Driver
+
+  flyway:
+    baseline-on-migrate: true
+    schemas: order
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        default_schema: order
+
+springdoc:
+  api-docs:
+    path: /order/api-docs

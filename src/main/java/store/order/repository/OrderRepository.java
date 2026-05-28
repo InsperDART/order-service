@@ -1,4 +1,4 @@
-﻿package store.order.repository;
+package store.order.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import store.order.model.OrderModel;

@@ -1,7 +1,11 @@
-store\order\OrderResource.class
+store\order\dto\OrderItemProduct.class
+store\order\model\OrderModel.class
 store\order\OrderApplication.class
-store\order\OrderItemModel.class
-store\order\OrderModel.class
-store\order\OrderItem.class
-store\order\Order.class
-store\order\OrderItemProduct.class
+store\order\model\OrderItemModel.class
+store\order\common\exchange\dto\ExchangeResponse.class
+store\order\common\exchange\service\ExchangeClient.class
+store\order\dto\OrderItem.class
+store\order\repository\OrderRepository.class
+store\order\service\OrderService.class
+store\order\controller\OrderResource.class
+store\order\dto\Order.class

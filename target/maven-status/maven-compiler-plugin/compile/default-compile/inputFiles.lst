@@ -1,7 +1,11 @@
-C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\Order.java
+C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\common\exchange\dto\ExchangeResponse.java
+C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\common\exchange\service\ExchangeClient.java
+C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\controller\OrderResource.java
+C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\dto\Order.java
+C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\dto\OrderItem.java
+C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\dto\OrderItemProduct.java
+C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\model\OrderItemModel.java
+C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\model\OrderModel.java
 C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\OrderApplication.java
-C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\OrderItem.java
-C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\OrderItemModel.java
-C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\OrderItemProduct.java
-C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\OrderModel.java
-C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\OrderResource.java
+C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\repository\OrderRepository.java
+C:\Users\artur\Documents\Microserv\microservices\api\order-service\src\main\java\store\order\service\OrderService.java

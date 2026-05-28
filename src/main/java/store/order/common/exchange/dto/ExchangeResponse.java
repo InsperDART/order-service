@@ -1,4 +1,4 @@
-﻿package store.order.common.exchange.dto;
+package store.order.common.exchange.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
