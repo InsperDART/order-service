@@ -6,9 +6,9 @@ spring:
     name: order
 
   datasource:
-    url: jdbc:postgresql://localhost:5433/store
-    username: store
-    password: store
+    url: jdbc:postgresql://${DATABASE_HOST}:${DATABASE_PORT}/${DATABASE_DB}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
     driver-class-name: org.postgresql.Driver
 
   flyway:
