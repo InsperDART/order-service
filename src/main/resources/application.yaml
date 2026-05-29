@@ -22,5 +22,7 @@ spring:
         default_schema: order
 
 springdoc:
+  swagger-ui:
+    path: /order.html
   api-docs:
     path: /order/api-docs
