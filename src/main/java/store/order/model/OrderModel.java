@@ -23,7 +23,7 @@ public class OrderModel {
     @Column(name = "id", nullable = false, updatable = false, length = 36)
     private String id;
 
-    @Column(name = "id", nullable = false, updatable = false)
+    @Column(name = "idAccount", nullable = false, updatable = false)
     private String idAccount;
 
     @Column(name = "date", nullable = false)
